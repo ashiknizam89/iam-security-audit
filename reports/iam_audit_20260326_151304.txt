@@ -1,0 +1,22 @@
+==================================================
+  AWS IAM SECURITY AUDIT
+  Run at: 2026-03-26 15:13:00
+==================================================
+
+=== PASSWORD POLICY AUDIT ===
+  ⚠️  No password policy set! This is a security risk.
+
+=== IAM USER AUDIT ===
+Total users found: 1
+
+[USER] iam-auditor
+  ⚠️  NO MFA enabled for iam-auditor
+  🔑 Access key AKIA6ND27YT4NA44GIYK | Status: Active | Age: 0 days
+  📋 Policy: IAMReadOnlyAccess
+  📋 Policy: SecurityAudit
+
+=== IAM ROLE AUDIT ===
+Total roles found: 3
+
+=== S3 BUCKET AUDIT ===
+Total buckets found: 0
